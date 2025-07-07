@@ -98,3 +98,5 @@ def main(page: ft.Page):
         )
 
         page.uptade()
+
+        ft.app(target=inicio)
