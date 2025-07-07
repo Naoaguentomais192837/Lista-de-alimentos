@@ -11,22 +11,22 @@ def main(page: ft.Page):
         #mensagens de erros
         if not entrada_alimento.value:
             entrada_alimento.error_text = 'Por favor preencha corretamente'
-            page.uptade()
+            page.update()
         if not entrada_caloria.value:
             entrada_caloria.error_text = 'Por favor preencha corretamente'
-            page.uptade()
+            page.update()
         if not entrada_proteina.value:
             entrada_proteina.error_text = 'Por favor preencha corretamente'
-            page.uptade()
+            page.update()
         if not entrada_carboidrato.value:
             entrada_carboidrato.error_text = 'Por favor preencha corretamente'
-            page.uptade()
+            page.update()
         if not entrada_gorduras.value:
             entrada_gorduras.error_text = 'Por favor preencha corretamente'
-            page.uptade()
+            page.update()
         if not entrada_gordurasTrans.value:
             entrada_gordurasTrans.error_text = 'Por favor preencha corretamente'
-            page.uptade()
+            page.update()
 
         else:
             alimento = entrada_alimento.value
